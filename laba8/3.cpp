@@ -32,6 +32,8 @@ int main() {
 		}
 		cout << endl;
 	}
+	for (int it = 0; it < i; ++it)
+		delete[] matrix[it];
 	delete[] matrix;
 	cout << "min number's column: " << min_column + 1;
 	return 0;
