@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <fstream>
 
 using namespace std;
@@ -39,6 +39,7 @@ int main()
     }
     for (int i = 0; i < n; ++i) {
         cout << mas[i] << " ";
+        delete[] mas[i];
     }
     delete[] mas;
     return 0;
