@@ -1,0 +1,5 @@
+﻿  problem8.cpp
+E:\gitkraken\problem8 (работает)\problem8\problem8.cpp(2,10): fatal error C1083: Не удается открыть файл включение: trapezoid.hpp: No such file or directory,
+  trapezoid.cpp
+E:\gitkraken\problem8 (работает)\problem8\trapezoid.cpp(1,10): fatal error C1083: Не удается открыть файл включение: trapezoid.hpp: No such file or directory,
+  Создание кода...
