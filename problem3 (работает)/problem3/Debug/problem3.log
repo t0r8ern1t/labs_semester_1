@@ -1,0 +1,7 @@
+﻿  functions.cpp
+E:\gitkraken\problem3 (работает)\problem3\functions.cpp(10,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\gitkraken\problem3 (работает)\problem3\functions.cpp(15,27): warning C4309: =: усечение константного значения
+E:\gitkraken\problem3 (работает)\problem3\functions.cpp(22,27): warning C4018: <: несоответствие типов со знаком и без знака
+E:\gitkraken\problem3 (работает)\problem3\functions.cpp(27,27): warning C4309: =: усечение константного значения
+E:\gitkraken\problem3 (работает)\problem3\functions.cpp(34,27): warning C4018: <: несоответствие типов со знаком и без знака
+  problem3.vcxproj -> E:\gitkraken\problem3 (работает)\Debug\problem3.exe
