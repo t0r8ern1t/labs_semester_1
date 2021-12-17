@@ -1,13 +1,13 @@
 ; Имя приложения
-#define   Name       "Angry Birds"
+#define   Name       "The hungry mage's story"
 ; Версия приложения
-#define   Version    "1.0.0"
+#define   Version    "6.6.6"
 ; Фирма-разработчик
-#define   Publisher  "Mikhail Tarachkov"
+#define   Publisher  "Sofia Shirokaya"
 ; Сафт фирмы разработчика
-#define   URL        "http://www.vk.com/mishklgpmi"
+#define   URL        "https://vk.com/felllllllllllllllllllllllllllix"
 ; Имя исполняемого модуля
-#define   ExeName    "AngryBirds.exe"
+#define   ExeName    "The_hungry_mages_story.exe"
 
 ;------------------------------------------------------------------------------
 ;   Параметры установки
@@ -16,7 +16,7 @@
 
 ; Уникальный идентификатор приложения, 
 ;сгенерированный через Tools -> Generate GUID
-AppId={{0E6470C7-9892-49A5-A3D9-152D9A3B162E}
+AppId={{17E79D87-F11A-43C0-94F8-EEE85F139BD1}
 
 ; Прочая информация, отображаемая при установке
 AppName={#Name}
@@ -32,11 +32,11 @@ DefaultDirName={pf}\{#Name}
 DefaultGroupName={#Name}
 
 ; Каталог, куда будет записан собранный setup и имя исполняемого файла
-OutputDir=C:\Git\programmingbasics_1pm2021\lecture_13_release\installer\output
-OutputBaseFileName=AngryBirds
+OutputDir=E:\gitkraken\0_game\installer\out
+OutputBaseFileName=The_hungry_mages_story
 
 ; Файл иконки
-SetupIconFile=C:\Git\programmingbasics_1pm2021\lecture_12_gameplay\example\img\bird.ico
+SetupIconFile=E:\gitkraken\0_game\img\icon.ico
 
 ; Параметры сжатия
 Compression=lzma
@@ -62,14 +62,14 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 [Files]
 
 ; Исполняемый файл
-Source: "C:\Build\example\Release\AngryBirds.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\build\0_game\Release\The_hungry_mages_story.exe"; DestDir: "{app}"; Flags: ignoreversion
 
 ; Прилагающиеся ресурсы
-Source: "C:\Git\programmingbasics_1pm2021\lecture_12_gameplay\example\img\*"; DestDir: "{app}\img\"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Git\programmingbasics_1pm2021\lecture_12_gameplay\example\fonts\*"; DestDir: "{app}\fonts\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\gitkraken\0_game\img\*"; DestDir: "{app}\img\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\gitkraken\0_game\fonts\*"; DestDir: "{app}\fonts\"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 ; VS Redistributable package
-Source: "C:\Git\programmingbasics_1pm2021\lecture_13_release\installer\VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
+Source: "E:\gitkraken\labs-ver2\0_game\installer\VC_redist.x64.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall
 ;------------------------------------------------------------------------------
 ;   Указываем установщику, где он должен взять иконки
 ;------------------------------------------------------------------------------ 

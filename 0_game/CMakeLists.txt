@@ -2,7 +2,7 @@
 									 # Если версия установленой программы
 									 # старее указаной, произайдёт аварийный выход.
 
-set(PROJECT_NAME blocks)				 # имя проекта		 
+set(PROJECT_NAME The_hungry_mages_story)				 # имя проекта		 
 project("${PROJECT_NAME}")
 
 
