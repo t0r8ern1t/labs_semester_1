@@ -1,10 +1,10 @@
-# Игра Angry Birds  
+# Игра The hungry mage's story  
 ## Системные требования  
-Windows 10 x64  
+Windows 8.1 x64  
 
 ## Для разработки  
 Необходим Cmake 3.15, компилятор VS 2019  
 
 ## Для установки  
-Использовать InnoSetup (см. директорию installer)
+Использовать InnoSetup
 
